@@ -1,0 +1,74 @@
+---
+full_title: "Resume source, organized with YAML"
+short_title: "res_yaml"
+has_raw_layout: true
+---
+
+# All credit to github.com/divad12/resume
+
+contact:
+    name: Addison Merrett Freeman
+    email: 'addison.freeman@[trinity.edu](http://addisonfreeman.com)'
+    github: '[github.com/addisonfreeman](https://github.com/addisonfreeman)'
+    #stackoverflow: '[stackoverflow.com/users/######](http://stackoverflow.com/users/#####)'
+
+projects:
+    - 'Personal blog [blog.addisonfreeman.com](http://blog.addisonfreeman.com): Elaboration on Technical Experience'
+- Technical Knowledge:
+    #- 'Experienced with HTML, CSS, JavaScript' #- 'Prior experience: Bash scripting, LaTeX, C#'
+    #- 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
+    #- 'Tools: Proficient with Vim and Git; Visual Studio' 
+#- General:
+    #- 'Interested in typesetting, web design, functional programming'
+
+work:
+    - employer: Self-Employed
+      title: Freelance Developer
+      location: Houston, TX
+      dates: July 2015 - Present
+      description: [WordPress and Drupal Development/Customization]
+    - employer: Pariveda Solutions
+      title: IT Consultant
+      location: Houston, TX
+      dates: June 2014 - June 2015
+      description:
+    - 'Developed MVC-type web and mobile applications for clients in multiple industries'
+education:
+      school: Trinity University
+    - degree: Bachelor of Science in Computer Science
+      dates: 2010 - 2014
+      description:
+        - 'Senior Software Project'
+    - degree: High School Diploma
+      school: International School of the Americas, North East School of the Arts
+      dates: 2006 - 2010
+            description:
+        - 'ISA/NESA'
+
+#awards:
+#    - 'Sample Honor Fraternity'
+
+interests: 'singing, skateboarding, programming, design, bread baking, Jesus'
+
+warning: 'This file was generated. See github.com/divad12/resume for this yaml structure source.'
+
+# TODO:
+# - Improve README
+# - more details 2011 winter work term
+# - change current address
+# - fit onto two pages
+# - different HTML and LaTeX for special formatting
+
+
+################################################################################
+# This resume was created using:
+# - YAML source (this file) - for the resume content
+# - LaTeX template - for presentation and layout
+# - Python script and Cheetah (templating engine) for compiling together the
+#   YAML and LaTeX
+# - pdflatex for .tex --> .pdf
+# - GNU Make for easy compilation
+# - Vim for editing all files
+# - Git for revision control, diff, backup, branching, etc.
+#
+# - HTML & CSS template soon to come
