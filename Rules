@@ -1,0 +1,4 @@
+compile 'content/index.html' do
+  filter :yamlfilter
+  layout 'default'
+end
